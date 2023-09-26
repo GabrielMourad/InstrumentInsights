@@ -1,16 +1,17 @@
 body{
     margin: 0 auto;
-    background-color: #d6d6d6;
+    padding:0;
+    background-color: #eeeeee;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{
-    width: 100%;
+    width: 85%;
     color:white;
     font-size: 1.10rem;
-    padding:1.5rem;
+    padding:1.6rem;
     background-color: black;
-    text-align: left;
+    margin: 0 auto;
     
 }
 
@@ -26,11 +27,11 @@ nav{
 }
 
 .nav-item:hover{
-  color:grey  
+  color:rgb(158, 158, 158)  
 }
 
 main{
-    width: 100%;
+    width: 80%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -38,13 +39,35 @@ main{
 
 }
 
+p{
+    font-size: 17px;
+}
 
 h1{
-    text-align: left;
     margin-top: 3rem;
     
 }
 
+.section-divider-intro{
+    width: 600px;
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+
+.section-divider{
+    width: 100px;
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+
 .intro_image{
     float: right;
+    margin-left: 40px;
+    margin-right: 5px;
+
+}
+
+figcaption{
+    font-size: 12px;
+    text-align: center;
 }
