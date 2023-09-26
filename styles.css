@@ -1,0 +1,28 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(230, 221, 221);
+}
+
+nav{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15rem;
+    padding:1.5rem;
+    background-color: black;
+    text-align: left;
+}
+
+.company-name{
+    margin-right: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-item{
+    margin-right: 25px;
+    text-decoration: none;
+    color:white
+}
+
+.nav-item:hover{
+  color:grey  
+}
