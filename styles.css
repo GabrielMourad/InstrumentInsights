@@ -45,26 +45,32 @@ p{
 
 h1{
     margin-top: 3rem;
-    
+    font-size: 2rem;
 }
 
-.section-divider-intro{
-    width: 600px;
-    margin-left: 0;
-    margin-bottom: 2rem;
-}
 
 .section-divider{
-    width: 100px;
+    width: 50%;
     margin-left: 0;
     margin-bottom: 2rem;
 }
 
-.intro_image{
+.subsection-divider{
+    width: 25%;
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+.introduction-image{
     float: right;
     margin-left: 40px;
     margin-right: 5px;
 
+}
+
+.instrument-image{
+    float: right;
+    margin-left: 40px;
+    margin-right: 5px;
 }
 
 figcaption{
