@@ -10,7 +10,7 @@ nav{
     color:white;
     font-size: 1.10rem;
     padding:1.6rem;
-    background-color: black;
+    background-color: rgb(22, 46, 77);
     margin: 0 auto;
     
 }
@@ -48,6 +48,13 @@ h1{
     font-size: 2rem;
 }
 
+h1,h2{
+    color: rgb(25, 52, 87);
+}
+
+section{
+    margin-bottom: 35px;
+}
 
 .section-divider{
     width: 50%;
@@ -71,6 +78,11 @@ h1{
     margin-left: 40px;
     margin-right: 5px;
 }
+
+.history-instrument-image{
+    float:left
+}
+
 
 figcaption{
     font-size: 12px;
